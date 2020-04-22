@@ -1,0 +1,3 @@
+[submodule "tagCanvas"]
+	path = tagCanvas
+	url = git@github.com:jameslahm/lottery
