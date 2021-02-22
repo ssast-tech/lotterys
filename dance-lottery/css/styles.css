@@ -1,0 +1,114 @@
+@import url(googleapi.css);
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Exo 2", Helvetica, Arial;
+  background-image:url(../res/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: #172f38;
+  /* padding: 0 50px 20px; */
+  color: #d7dbdd;
+  height: 100%;
+  margin: 0%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.footer {
+    color: #ffffff;
+    font-family: Cursive;
+    font-size: 1.5em;
+    font-weight: 900;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+}
+
+.display {
+  font-size: 13em;
+  font-weight: 900;
+  text-align: center;
+  line-height: 1;
+  position: fixed;
+  left: 20%;
+  top: 46%;
+  margin-top: -0.5em;
+  right: 20%;
+  -webkit-transition: all 1s ease-in, opacity 0.7s ease-in 0.3s;
+          transition: all 1s ease-in, opacity 0.7s ease-in 0.3s;
+  color: rgb(255 148 0);
+  opacity: 0.5;
+}
+
+.display:not(.prime){
+  backdrop-filter: blur(4px);
+  opacity: 0.9;
+}
+
+.display.prime {
+  color: #00ff84;
+}
+.display.prime.c0 {
+  color: #b700ff;
+}
+.display.prime.c1 {
+  color: #3700ff;
+}
+.display.prime.c2 {
+  color: #ffd900;
+}
+.display.prime.c3 {
+  color: #ff3300;
+}
+.display.prime.c4 {
+  color: #ff0059;
+}
+.display.prime.c5 {
+  color: #00ff84;
+}
+.display.out {
+  opacity: 0;
+}
+.display.out.lb {
+  -webkit-transform: translate3d(-2em, 1em, 0em);
+          transform: translate3d(-2em, 1em, 0em);
+}
+.display.out.l {
+  -webkit-transform: translate3d(-2em, 0em, 0em);
+          transform: translate3d(-2em, 0em, 0em);
+}
+.display.out.lt {
+  -webkit-transform: translate3d(-2em, -1em, 0em);
+          transform: translate3d(-2em, -1em, 0em);
+}
+.display.out.t {
+  -webkit-transform: translate3d(0em, -1em, 0em);
+          transform: translate3d(0em, -1em, 0em);
+}
+.display.out.rt {
+  -webkit-transform: translate3d(2em, -1em, 0em);
+          transform: translate3d(2em, -1em, 0em);
+}
+.display.out.r {
+  -webkit-transform: translate3d(2em, 0em, 0em);
+          transform: translate3d(2em, 0em, 0em);
+}
+.display.out.rb {
+  -webkit-transform: translate3d(2em, 1em, 0em);
+          transform: translate3d(2em, 1em, 0em);
+}
+.display.out.b {
+  -webkit-transform: translate3d(0em, 1em, 0em);
+          transform: translate3d(0em, 1em, 0em);
+}

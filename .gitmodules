@@ -1,6 +1,0 @@
-[submodule "tagCanvas"]
-	path = tagCanvas
-	url = git@github.com:jameslahm/lottery
-[submodule "welcome-lottery"]
-	path = welcome-lottery
-	url = https://github.com/jameslahm/welcome-lottery
